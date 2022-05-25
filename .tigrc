@@ -1,3 +1,10 @@
 set main-view-date = relative
 set main-view-author = email
 set main-view-id-display = yes
+set main-view-commit-title-graph = v2
+
+set refs-view-date = relative
+set refs-view-author = email
+set refs-view-id-display = yes
+
+set line-graphics = utf-8
