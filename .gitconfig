@@ -1,0 +1,12 @@
+[alias]
+	cm = commit -m
+	st = status -sb
+	co = checkout
+	cob = checkout -b
+	del = branch -D
+	br = branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' --sort=-committerdate
+	done = push origin HEAD
+	gl = config --global -l
+	ft = fetch --prune
+	pl = !git ft && git pull
+	ps = !git ft && git done
