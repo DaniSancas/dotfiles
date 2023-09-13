@@ -1,5 +1,5 @@
 # dotfiles
-Personal dotfiles to synchronize
+Personal dotfiles to synchronize & applications to install
 
 ## Applications to synchronize
 
@@ -15,6 +15,16 @@ sudo apt install bat
 # Creates an alias to `bat` instead of default `batcat` command
 mkdir -p ~/.local/bin
 ln -s /usr/bin/batcat ~/.local/bin/bat
+```
+
+### LSD
+
+> The next gen ls command 
+
+https://github.com/lsd-rs/lsd
+
+```sh
+sudo apt install lsd
 ```
 
 ### Starship
