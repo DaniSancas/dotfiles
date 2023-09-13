@@ -6,6 +6,9 @@ alias ll="ls -la"
 alias lah="ls -lah"
 alias lt="ls --tree"
 
+# Bat on FZF
+export FZF_CTRL_T_OPTS=" --preview 'bat --color=always --style=numbers --line-range=:500 {}'"
+
 # Starship prompt
 eval "$(starship init zsh)"
 
