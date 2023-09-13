@@ -11,6 +11,7 @@ https://github.com/sharkdp/bat
 ```
 sudo apt install bat
 
+# Creates an alias to `bat` instead of default `batcat` command
 mkdir -p ~/.local/bin
 ln -s /usr/bin/batcat ~/.local/bin/bat
 ```
