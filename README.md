@@ -8,7 +8,7 @@ Personal dotfiles to synchronize
 > A cat clone with wings.
 
 https://github.com/sharkdp/bat
-```
+```sh
 sudo apt install bat
 
 # Creates an alias to `bat` instead of default `batcat` command
