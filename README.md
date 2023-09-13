@@ -8,6 +8,7 @@ Personal dotfiles to synchronize
 > A cat clone with wings.
 
 https://github.com/sharkdp/bat
+
 ```sh
 sudo apt install bat
 
@@ -15,3 +16,21 @@ sudo apt install bat
 mkdir -p ~/.local/bin
 ln -s /usr/bin/batcat ~/.local/bin/bat
 ```
+
+### Starship
+
+> The minimal, blazing-fast, and infinitely customizable prompt for any shell!
+
+https://starship.rs/
+
+Warning: Needs [NerdFonts](#nerdfonts)
+
+```sh
+curl -sS https://starship.rs/install.sh | sh
+```
+
+### NerdFonts
+
+> Iconic font aggregator, collection, & patcher.
+
+https://github.com/ryanoasis/nerd-fonts
