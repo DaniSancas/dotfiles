@@ -17,6 +17,26 @@ mkdir -p ~/.local/bin
 ln -s /usr/bin/batcat ~/.local/bin/bat
 ```
 
+### FD
+
+> A simple, fast and user-friendly alternative to 'find'
+
+https://github.com/sharkdp/fd
+
+```sh
+sudo apt install fd-find
+```
+
+### FZF
+
+> 🌸 A command-line fuzzy finder
+
+https://github.com/junegunn/fzf
+
+```sh
+sudo apt install fzf
+```
+
 ### LSD
 
 > The next gen ls command 
