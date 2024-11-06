@@ -15,13 +15,13 @@ function confirm() {
 }
 
 # First of all, make sure brew is installed
-if ! type "brew" > /dev/null; then
+if ! command -v brew > /dev/null; then
     echo "Brew not installed. Follow the instructions in https://brew.sh/"
     if confirm; then
         /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     else
         echo "Installation aborted."
-        return 1
+        exit 1
     fi
 else
     echo "Brew installed, installing packages..."
