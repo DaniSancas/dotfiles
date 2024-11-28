@@ -48,7 +48,7 @@ fi
 # - starship
 brew install \
     node \
-nvim \
+    nvim \
     ripgrep \
     tree-sitter \
     fzf \
